@@ -1,19 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class terrainEditor : MonoBehaviour
 {
 
-    // Use this for initialization
-    void Start()
+    public void startEditor()
     {
-
+        print("Editor Started");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void stopEditor()
     {
-
+        print("Editor Stopped");
     }
+
 }

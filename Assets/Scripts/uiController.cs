@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class uiController : MonoBehaviour
 {
+
+    public terrainEditor toggleEditor;
+
     Button myButton;
     bool isEditorModeOn = false;
 
@@ -21,17 +24,14 @@ public class uiController : MonoBehaviour
     {
         if (isEditorModeOn)
         {
+            toggleEditor.stopEditor();
             isEditorModeOn = false;
         }
         else
         {
+            toggleEditor.startEditor();
             isEditorModeOn = true;
         }
-        print(isEditorModeOn);
     }
 
-    void Start()
-    {
-
-    }
 }
