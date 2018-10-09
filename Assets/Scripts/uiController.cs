@@ -1,19 +1,36 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class uiController : MonoBehaviour
 {
+    Button myButton;
+    bool isEditorModeOn = false;
 
-    // Use this for initialization
-    void Start()
+    void Awake()
     {
-
+        myButton = GetComponent<Button>();
+        myButton.onClick.AddListener(() =>
+        {
+            toggleEditorMode();
+        });
     }
 
+    void toggleEditorMode()
+    {
+        if (isEditorModeOn)
+        {
+            isEditorModeOn = false;
+        }
+        else
+        {
+            isEditorModeOn = true;
+        }
+        print(isEditorModeOn);
+    }
 
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
 
     }
