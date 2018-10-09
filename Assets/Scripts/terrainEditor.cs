@@ -13,4 +13,9 @@ public class terrainEditor : MonoBehaviour
         print("Editor Stopped");
     }
 
+    void generateGrid()
+    {
+
+    }
+
 }
