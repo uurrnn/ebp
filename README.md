@@ -9,6 +9,7 @@
 - ~~create 'grass cube'~~
 - ### basic course functionality
 - limit grass cube movement to a 10 unit grid so they can only be placed adjacent to each other
+- display coordinates of cube on top quad
 - write script to generate land
 - connect generate land script to editor mode button
 - add serialized property to grass cube that displays its cube type e.g sand, rough, fairway. include containsHole type
@@ -18,7 +19,7 @@
 - create menu UI for editor with buttons for each cube type
 - display editor UI only when editor mode button is toggled on
 - add light border color to cubes when in editor mode to display a grid over the cubes?
-- when you click a button in the menu, you can then click on a cube and change its cube type propery to the corresponding button
+- when you click a button in the menu, you can then click on a cube and change its cube type property to the corresponding button
 - add ability to click and drag across multiple cubes
 - ### golfing
 - add a golf button
