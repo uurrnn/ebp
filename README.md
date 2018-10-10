@@ -8,8 +8,8 @@
 - ~~switch to 'editor mode' when button is clicked~~
 - ~~create 'grass cube'~~
 - ### basic course functionality
-- limit grass cube movement to a 10 unit grid so they can only be placed adjacent to each other
-- display coordinates of cube on top quad
+- ~~limit grass cube movement to a 2 unit grid so they can only be placed adjacent to each other~~
+- ~~display coordinates of cube on top quad~~
 - write script to generate land
 - connect generate land script to editor mode button
 - add serialized property to grass cube that displays its cube type e.g sand, rough, fairway. include containsHole type
